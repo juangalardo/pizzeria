@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #222222;
+    padding: 10px;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.nav-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-header ul {
+    display: flex;
+    color: white;
+}
+
+.ul-sinp {
+    list-style-type: none;
+}
+
+.nav-header ul li {
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+    margin: 25px;
+}
+
+#izq {
+    background-image: url('../img/delivery.jpg');
+    height: 350px;
+    width: 490px;
+    margin: 5px;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    color: white;
+    font-size: 28px;
+}
+
+#der {
+    background-color: white;
+    height: 350px;
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 5px;
+}
+
+#enviofree {
+    font-size: 24px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: flex;
+    color: red;
+}
+
+
+
+#podiorojo {
+    font-size: 24px;
+    color: red;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+
+#blacktop5 {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+#rank {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+#imgfall {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    right: 25%;
+}
+
+
+footer {
+    display: flex;
+    background-color: #222222;
+    padding: 10px;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.nav-footer {
+    color: white;
+    line-height: 30px;
+}
+
+/* Para tener a mano el figma
+https://www.figma.com/file/fspxGBeJ6s06dsxx5Ji158/Flex%3F?node-id=1%3A2
